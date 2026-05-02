@@ -1,0 +1,20 @@
+--- BEFORE VS AFTER CLEANING (First 5 Rows) ---
+  avg_salary  avg_salary_num
+0       7.8L             7.8
+1      12.8L            12.8
+2      13.4L            13.4
+3       9.8L             9.8
+4       8.6L             8.6
+
+--- CLEANED NUMERICAL SUMMARY ---
+       min_experience  min_salary_num  max_salary_num  avg_salary_num
+count     1602.000000     1602.000000     1602.000000     1602.000000
+mean         2.799001        8.634145       19.143258       13.234894
+std          2.353686        5.796976       11.150180        7.840744
+min          0.000000        0.200000        2.000000        1.400000
+25%          1.000000        4.400000       12.000000        7.600000
+50%          2.000000        7.000000       18.000000       11.900000
+75%          4.000000       11.500000       24.000000       17.175000
+max         21.000000       55.000000      102.000000       82.000000
+
+Rows with negative experience: 0

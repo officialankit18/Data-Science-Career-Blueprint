@@ -1,0 +1,50 @@
+--- DATA INFO & MISSING VALUES ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1602 entries, 0 to 1601
+Data columns (total 8 columns):
+ #   Column          Non-Null Count  Dtype 
+---  ------          --------------  ----- 
+ 0   reference_no    1602 non-null   int64 
+ 1   company_name    1602 non-null   object
+ 2   job_title       1602 non-null   object
+ 3   min_experience  1602 non-null   int64 
+ 4   avg_salary      1602 non-null   object
+ 5   min_salary      1602 non-null   object
+ 6   max_salary      1602 non-null   object
+ 7   num_of_jobs     1602 non-null   int64 
+dtypes: int64(3), object(5)
+memory usage: 100.2+ KB
+
+Missing Values Count:
+reference_no      0
+company_name      0
+job_title         0
+min_experience    0
+avg_salary        0
+min_salary        0
+max_salary        0
+num_of_jobs       0
+
+--- NUMERICAL DATA SUMMARY (MIN/MAX/MEAN) ---
+       reference_no  min_experience  num_of_jobs
+count   1602.000000     1602.000000  1602.000000
+mean    5105.789014        2.799001    58.055556
+std     2291.937727        2.353686   169.042138
+min     1012.000000        0.000000     3.000000
+25%     3225.250000        1.000000     9.250000
+50%     5200.500000        2.000000    22.000000
+75%     7022.500000        4.000000    47.000000
+max     8998.000000       21.000000  4200.000000
+
+--- TOP JOB TITLES ---
+job_title
+Data Scientist               188
+Business Analyst             188
+Data Engineer                188
+Data Analyst                 187
+Senior Business Analyst      187
+Senior Data Analyst          187
+Senior Data Scientist        185
+Senior Data Engineer         183
+Machine Learning Engineer     59
+Data Architect                50

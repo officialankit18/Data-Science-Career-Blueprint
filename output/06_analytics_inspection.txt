@@ -1,0 +1,34 @@
+--- DATA INFO ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 15841 entries, 0 to 15840
+Data columns (total 8 columns):
+ #   Column           Non-Null Count  Dtype 
+---  ------           --------------  ----- 
+ 0   s_no             15841 non-null  int64 
+ 1   experience       15841 non-null  object
+ 2   job_description  12333 non-null  object
+ 3   job_desig        15841 non-null  object
+ 4   job_type         3830 non-null   object
+ 5   key_skills       15840 non-null  object
+ 6   location         15841 non-null  object
+ 7   salary           15841 non-null  object
+dtypes: int64(1), object(7)
+memory usage: 990.2+ KB
+
+--- MISSING VALUES ---
+s_no                   0
+experience             0
+job_description     3508
+job_desig              0
+job_type           12011
+key_skills             1
+location               0
+salary                 0
+
+--- FIRST 5 ROWS ---
+   s_no experience                                                                                              job_description                                                    job_desig job_type                                                               key_skills                                   location  salary
+0     1   6-10 yrs  Must be knowledgeable and experienced in relational database concepts,Oracle Apps database architecture ...                              Oracle EBS Technical Consultant      NaN  Oracle SQL, PLSQL, PL, Oracle Forms, Oracle Reports, Oracle Workflow...                         Bengaluru, Chennai   6to10
+1     2   8-12 yrs  - Experience in building scalable and highly available distributed systems;- Hands-on experience in web ...  Staff Software Engineer - Object Oriented Analysis & Design      NaN  Javascript, HTML, JQuery, Web Development, Play Framework, MVC, Rest...                                  Bengaluru  10to15
+2     3    3-8 yrs                                                                                                          NaN                                         Servicenow Developer      NaN                                   SNOW, Servicenow, Servicenow Developer                            Hyderabad, Pune    0to3
+3     4    3-6 yrs          Our software engineers at Fiserv bring an open and creative mindset to a global team developing ...                    Software Development Engineering, Analyst      NaN     QTP, Flex, LAN, Application support, Performance testing, Eclipse...                                       Pune   6to10
+4     5   5-10 yrs          - More than 5 years experience in Hypermesh for Finite Element model setup for large assemblies ...                              NVH Engineer - Nastran/ Ls-dyna      NaN  HyperMesh, LS - DYNA, NASTRAN, Abaqus, Fatigue, Durability, NVH, FEA...  Mumbai, Bengaluru, Hyderabad, Pune, Delhi  10to15

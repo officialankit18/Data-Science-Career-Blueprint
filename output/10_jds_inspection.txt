@@ -1,0 +1,26 @@
+--- INITIAL DATA INFO ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 139 entries, 0 to 138
+Data columns (total 7 columns):
+ #   Column                             Non-Null Count  Dtype  
+---  ------                             --------------  -----  
+ 0   id                                 139 non-null    int64  
+ 1   big_data_skills                    139 non-null    float64
+ 2   maths-stats_skills                 139 non-null    float64
+ 3   coding_skills                      139 non-null    float64
+ 4   ai_and_ml_skills                   139 non-null    float64
+ 5   dashboard_and_storytelling_skills  139 non-null    float64
+ 6   salary_hike_high_or_low            139 non-null    int64  
+dtypes: float64(5), int64(2)
+memory usage: 7.7 KB
+
+--- SUMMARY STATISTICS ---
+                id  big_data_skills  maths-stats_skills  coding_skills  ai_and_ml_skills  dashboard_and_storytelling_skills  salary_hike_high_or_low
+count   139.000000       139.000000          139.000000     139.000000        139.000000                         139.000000               139.000000
+mean   2958.460432         3.849640            4.293525       4.268345          4.566187                           4.355396                 0.525180
+std     604.538742         0.846594            0.843922       0.892971          0.667089                           0.933062                 0.501172
+min    2007.000000         2.300000            2.200000       2.200000          2.200000                           2.300000                 0.000000
+25%    2383.500000         3.100000            3.800000       3.350000          4.400000                           3.750000                 0.000000
+50%    2963.000000         3.800000            4.600000       4.600000          4.900000                           5.000000                 1.000000
+75%    3452.000000         4.600000            5.000000       5.000000          5.000000                           5.000000                 1.000000
+max    4000.000000         5.000000            5.000000       5.000000          5.000000                           5.000000                 1.000000

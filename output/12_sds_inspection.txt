@@ -1,0 +1,34 @@
+--- INITIAL DATA INFO ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 161 entries, 0 to 160
+Data columns (total 7 columns):
+ #   Column                           Non-Null Count  Dtype
+---  ------                           --------------  -----
+ 0   id                               161 non-null    int64
+ 1   neuroticism                      161 non-null    int64
+ 2   extraversion                     161 non-null    int64
+ 3   openness_to_experience           161 non-null    int64
+ 4   agreeableness                    161 non-null    int64
+ 5   conscientiousness                161 non-null    int64
+ 6   success_classification_high_low  161 non-null    int64
+dtypes: int64(7)
+memory usage: 8.9 KB
+
+--- SUMMARY STATISTICS ---
+                id  neuroticism  extraversion  openness_to_experience  agreeableness  conscientiousness  success_classification_high_low
+count   161.000000   161.000000    161.000000              161.000000     161.000000         161.000000                       161.000000
+mean   8484.596273    36.192547     43.204969               41.329193      44.602484          45.211180                         0.527950
+std     280.357503    11.268050     12.134722               11.322420      11.293405          13.211931                         0.500776
+min    8001.000000    17.000000     17.000000               18.000000      17.000000          18.000000                         0.000000
+25%    8228.000000    27.000000     34.000000               32.000000      39.000000          35.000000                         0.000000
+50%    8504.000000    34.000000     45.000000               44.000000      46.000000          49.000000                         1.000000
+75%    8729.000000    44.000000     53.000000               49.000000      51.000000          56.000000                         1.000000
+max    8979.000000    68.000000     67.000000               65.000000      68.000000          66.000000                         1.000000
+--- MISSING VALUES ---
+id                                 0
+neuroticism                        0
+extraversion                       0
+openness_to_experience             0
+agreeableness                      0
+conscientiousness                  0
+success_classification_high_low    0
